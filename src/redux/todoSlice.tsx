@@ -4,9 +4,9 @@ import {PayloadAddTodo, PayloadUpdate, TodoState} from "../models/todos";
 
 const initialState = {
     todos: [
-        {id: '1', title: 'Do some coding', done: false},
-        {id: '2', title: 'Do some trading', done: false},
-        {id: '3', title: 'Get more Guitars', done: false},
+        {id: '1', title: 'Visit Machinep.com', done: true},
+        {id: '2', title: 'Do some coding', done: false},
+        {id: '3', title: 'Do some trading', done: false},
     ]
 };
 

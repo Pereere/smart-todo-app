@@ -39,7 +39,7 @@ const NewTodo = () => {
                 <h4> New Todo </h4>
             </div>
 
-            <div className={toggleForm ? "form-todo-div" : "no-show" }>
+            <div className={!toggleForm ? "form-todo-div" : "no-show" }>
                 <form className="form-todo" onSubmit={handleSubmit}>
                     <input
                         placeholder="Add New Todo"

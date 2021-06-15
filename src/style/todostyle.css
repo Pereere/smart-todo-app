@@ -6,7 +6,19 @@ body .con-div-todo {
   box-shadow: -3px 3px 6px #cccccc;
   max-width: 900px;
   transition: all 0.5s ease;
-  padding-bottom: 20px;
+}
+@media only screen and (max-width: 505px) {
+  body .con-div-todo {
+    width: 90%;
+    min-width: 500px;
+    transition: all 0.3s ease;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  body .con-div-todo {
+    max-width: 800px;
+    transition: all 0.3s ease;
+  }
 }
 body .con-div-todo .con-div-todo-inner {
   transition: all 0.5s ease;
@@ -359,6 +371,18 @@ body .con-div-todo .con-div-todo-inner .no-todo-left .message {
   height: 100%;
   line-height: 40px;
   letter-spacing: 1px;
+}
+body .con-div-todo .todo-footer-div {
+  background: #671313;
+  margin: auto;
+  height: 25px;
+  border-radius: 0 0 10px 10px;
+  letter-spacing: 1px;
+}
+body .con-div-todo .todo-footer-div .todo-footer-text {
+  color: navajowhite;
+  text-align: center;
+  line-height: 25px;
 }
 
 /*# sourceMappingURL=todostyle.css.map */

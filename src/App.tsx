@@ -22,8 +22,8 @@ const App = () => {
                 <TodoList />
             </div>
 
-            <div>
-                <p> Designed by Smart Programmer </p>
+            <div className="todo-footer-div">
+                <p className="todo-footer-text"> Designed by Smart Programmer </p>
             </div>
         </div>
     )

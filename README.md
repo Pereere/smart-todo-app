@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Reactjs-React-Redux-Toolkit-Typescript-SCSS-Functional-Component-Smart Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Smart Todo App is a React App that enables you to keep track of your daily activities in a smart way. </br>
+<h2> <b> What Can You Do With The Smart Todo App? </b> </h2> </br>
 
-## Available Scripts
+The Smart Todo App allows you to do the following:
+1. <b> Create a new todo </b> activity as an item and see all the todo items created
+2. <b> Edit the created Todo items </b> and update them with the update button
+3. <b> Check a Todo item as completed </b>, and have the completed effects applied
+4. And, to <b> delete a Todo item </b> if you don't need it anymore with the delete button
 
-In the project directory, you can run:
+<h2> <b> What are the Languages, Libraries, and Tools Used </b> </h2>
 
-### `npm start`
+The Smart Todo App is built these:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. <b> React | </b> A javaScript library. 
+2. <b> React Redux | <b> A a predictable state container for JavaScript apps.
+3. <b> Redux ToolKit | </b> An official, opinionated, batteries-included toolset for efficient Redux development.
+4. <b> TypeScript | </b> A more handy tool that is strongly typed, object oriented, and compiled language.
+5. <b> SCSS | </b> For adding the styles
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+  <h2> Why I chose the Techonogies for the Development </h2>
+I'm a keen React developer. Even though I started learning React a couple of weeks ago, I'm synonymous with javaScript and familiar with Vue Js, and they give me an edge.
+  However, I encountered a few challenges ranging from working with the states and manipulating the store. But, after a deeper understanding, I got down with it.
+  And, on a special note, I'm indebted to my eldest brother (@machinepereere) who put in priceless efforts to ensure I'm on the right track.
+  
+  <h2> How To Use The Smart Todo App </h2>
+  - Click on the "New Todo" Button to reveal and hide the form for new todo <br/>
+  - Create a new todo by typing the todo item in the input, and click on the "Add Todo" button to create it <br />
+  - Mark the Checkbox if you're done with a Todo Item <br />
+  - Click on the Todo item from the list to edit it, and click on the "Update Button" to update it. <br />
+  - Click on the Delete button to trash any todo item from the list <br/>
+  <hr>
+Thanks, and keep coding!

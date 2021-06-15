@@ -1,4 +1,4 @@
-# Reactjs-React-Redux-Toolkit-Typescript-SCSS-Smart Todo App
+# Reactjs-React-Redux-Toolkit-Typescript-SCSS-Functional-Component-Smart Todo App
 
 The Smart Todo App is a React App that enables you to keep track of your daily activities in a smart way. </br>
 <h2> <b> What Can You Do With The Smart Todo App? </b> </h2> </br>

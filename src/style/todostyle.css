@@ -1,0 +1,364 @@
+body .con-div-todo {
+  background: moccasin;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: -3px 3px 6px #cccccc;
+  max-width: 900px;
+  transition: all 0.5s ease;
+  padding-bottom: 20px;
+}
+body .con-div-todo .con-div-todo-inner {
+  transition: all 0.5s ease;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head {
+  background: #671313;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  display: flex;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .smart-todo-head {
+  color: navajowhite;
+  flex: 6;
+  margin: auto;
+  border-right: 2px solid white;
+  border-radius: 8px;
+  padding: 10px;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .smart-todo-head .a {
+  color: #5b84cd;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .smart-todo-head .r {
+  color: orange;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .smart-todo-head .t {
+  color: #e4f549;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .tagline-head {
+  color: white;
+  margin: auto 5px;
+  flex: 4;
+}
+@media only screen and (min-width: 600px) {
+  body .con-div-todo .con-div-todo-inner .div-todo-head .tagline-head {
+    letter-spacing: 2px;
+  }
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .logo-head {
+  display: flex;
+  flex: 1;
+  margin: auto 5px;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .logo-head .logo1 {
+  background: #5b84cd;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  margin-right: 2px;
+  border: 1px solid navajowhite;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .logo-head .logo1:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+  background: #6d9fea;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .logo-head .logo2 {
+  background: #e4f549;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  margin-right: 2px;
+  border: 1px solid navajowhite;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .logo-head .logo2:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+  background: #e5ff00;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .logo-head .logo3 {
+  background: orange;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  margin-right: 2px;
+  border: 1px solid navajowhite;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .div-todo-head .logo-head .logo3:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+  background: #ffb42c;
+}
+body .con-div-todo .con-div-todo-inner .input-con .guide-toggle {
+  cursor: pointer;
+  margin: 10px auto;
+  transition: all 0.3s ease;
+  background: #ff6e39;
+  width: 40%;
+  padding: 5px;
+  border-radius: 15px;
+  color: #4e0f0f;
+  text-align: center;
+}
+body .con-div-todo .con-div-todo-inner .input-con .guide-toggle:hover {
+  transition: all 0.5s ease;
+  background: #4e0f0f;
+  color: #ff6e39;
+  letter-spacing: 1px;
+}
+body .con-div-todo .con-div-todo-inner .input-con .form-todo-div {
+  background: silver;
+  width: 90%;
+  margin: auto;
+  height: 40px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .input-con .form-todo-div .form-todo {
+  height: 100%;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .input-con .form-todo-div .form-todo .form-input {
+  height: 100%;
+  width: 80%;
+  outline: none;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+@media only screen and (max-width: 520px) {
+  body .con-div-todo .con-div-todo-inner .input-con .form-todo-div .form-todo .form-input {
+    width: 70%;
+  }
+}
+body .con-div-todo .con-div-todo-inner .input-con .form-todo-div .form-todo .form-input:focus {
+  transition: all 0.3s ease;
+  letter-spacing: 0.4px;
+  border-right: 1.5px solid saddlebrown;
+}
+body .con-div-todo .con-div-todo-inner .input-con .form-todo-div .form-todo .form-input:hover {
+  background: #dedede;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .input-con .form-todo-div .form-todo .form-submit {
+  height: 100%;
+  width: 20%;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  color: #4e0f0f;
+  transition: all 0.3s ease;
+}
+@media only screen and (max-width: 520px) {
+  body .con-div-todo .con-div-todo-inner .input-con .form-todo-div .form-todo .form-submit {
+    width: 30%;
+  }
+}
+body .con-div-todo .con-div-todo-inner .input-con .form-todo-div .form-todo .form-submit:hover {
+  color: antiquewhite;
+  background: #823d17;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  transform: scale(1.1);
+}
+body .con-div-todo .con-div-todo-inner .input-con .no-show {
+  display: none;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div {
+  background: cornsilk;
+  width: 80%;
+  margin: 10px auto 10px auto;
+  border-radius: 5px;
+  display: flex;
+  height: 50px;
+  padding-left: 5px;
+  border-left: 2px solid;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div:hover {
+  background: #efefef;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div:hover .del-update {
+  opacity: 1;
+  transition: all 0.3s ease;
+  margin: auto;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div .todo-list-text {
+  flex: 7;
+  line-height: 50px;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: bold;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div .todo-list-text .input-list {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #671313;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div .todo-list-check {
+  flex: 1;
+  margin: auto;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div .del-update {
+  opacity: 0;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div .del-update .trash-todo {
+  flex: 1;
+  margin: auto 5px auto 0;
+  background: none;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #671313;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div .del-update .trash-todo:hover {
+  background: #671313;
+  color: navajowhite;
+  transition: all 0.5s ease;
+  font-size: 22px;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div .del-update .update-todo {
+  flex: 1;
+  margin: auto 10px auto 0;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #671313;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div .del-update .update-todo:hover {
+  background: #671313;
+  color: navajowhite;
+  transition: all 0.5s ease;
+  font-size: 21px;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked {
+  background: lightgreen;
+  width: 80%;
+  margin: 10px auto 10px auto;
+  border-radius: 5px;
+  display: flex;
+  height: 50px;
+  padding-left: 5px;
+  border-left: 2px solid green;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked:hover {
+  background: #6fd36f;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked:hover .del-update {
+  opacity: 1;
+  transition: all 0.3s ease;
+  margin: auto;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked .todo-list-text {
+  flex: 7;
+  line-height: 50px;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: bold;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked .todo-list-text .input-list {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #16476b;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked .todo-list-check {
+  flex: 1;
+  margin: auto;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked .del-update {
+  opacity: 0;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked .del-update .trash-todo {
+  flex: 1;
+  margin: auto 5px auto 0;
+  background: none;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #f41717;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked .del-update .trash-todo:hover {
+  background: #caffca;
+  color: #df0000;
+  transition: all 0.5s ease;
+  font-size: 22px;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked .del-update .update-todo {
+  flex: 1;
+  margin: auto 10px auto 0;
+  background: none;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-div-checked .del-update .update-todo:hover {
+  color: #155a15;
+  background: #caffca;
+  transition: all 0.5s ease;
+  font-size: 21px;
+}
+body .con-div-todo .con-div-todo-inner .no-todo-left {
+  width: 80%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: yellow;
+  background: #568f9f;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  height: 40%;
+}
+body .con-div-todo .con-div-todo-inner .no-todo-left:hover {
+  cursor: pointer;
+  background: #567f9f;
+}
+body .con-div-todo .con-div-todo-inner .no-todo-left .message {
+  height: 100%;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=todostyle.css.map */

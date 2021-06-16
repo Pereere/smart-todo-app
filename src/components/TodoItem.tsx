@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector } from "react-redux";
 import {delTodo, doneTodo, updateTodo} from "../redux/todoSlice";
 
 const TodoItem = (props: any) => {
     const dispatch = useDispatch();
+    const todoArray = useSelector((state:any) => state.todoReducer.todos);
+    const todoIndex = todoArray.findIndex((item:any) => item.id === props.id);
     const [newText, setNewText] = useState(props.title);
 
     const handleDel = (e: any) => {
@@ -25,6 +27,7 @@ const TodoItem = (props: any) => {
 
     return (
         <div className={ props.done ? "todo-list-div-checked" : "todo-list-div" }>
+            <div style={{margin: "auto"}}> {todoIndex + 1} </div>
             <input
                 type="checkbox"
                 className="todo-list-check"

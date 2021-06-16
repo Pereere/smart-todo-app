@@ -19,22 +19,28 @@ export const todoSlice = createSlice({
         },
 
         delTodo: (state: TodoState, action: { payload: string }) => {
-            const delIndex = state.todos.findIndex((item:any)=>item.id === action.payload);
-            state.todos.splice(delIndex, 1);
+            const delIndex = state.todos.findIndex((item: any) => item.id === action.payload);
+            if (delIndex !== -1) {
+                state.todos.splice(delIndex, 1);
+            }
             return state;
         },
 
-        doneTodo: (state: TodoState, action: {payload: string}) => {
-            const doneIndex = state.todos.findIndex((item:any) => item.id === action.payload);
+        doneTodo: (state: TodoState, action: { payload: string }) => {
+            const doneIndex = state.todos.findIndex((item: any) => item.id === action.payload);
             state.todos[doneIndex].done = !state.todos[doneIndex].done;
         },
 
         updateTodo: (state: TodoState, action: PayloadUpdate) => {
-            const updateIndex = state.todos.findIndex((item:any) => item.id === action.payload.id);
+            const updateIndex = state.todos.findIndex((item: any) => item.id === action.payload.id);
             state.todos[updateIndex].title = action.payload.title;
+        },
+
+        resetTodo: (state: TodoState) => {
+            state.todos = [];
         }
     }
 });
 
-export const {saveTodo, delTodo, doneTodo, updateTodo} = todoSlice.actions;
+export const {saveTodo, delTodo, doneTodo, updateTodo, resetTodo} = todoSlice.actions;
 export default todoSlice.reducer;

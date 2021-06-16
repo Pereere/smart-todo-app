@@ -106,7 +106,10 @@ body .con-div-todo .con-div-todo-inner .div-todo-head .logo-head .logo3:hover {
   cursor: pointer;
   background: #ffb42c;
 }
-body .con-div-todo .con-div-todo-inner .input-con .guide-toggle {
+body .con-div-todo .con-div-todo-inner .input-con .new-reset {
+  display: flex;
+}
+body .con-div-todo .con-div-todo-inner .input-con .new-reset .guide-toggle {
   cursor: pointer;
   margin: 10px auto;
   transition: all 0.3s ease;
@@ -117,7 +120,7 @@ body .con-div-todo .con-div-todo-inner .input-con .guide-toggle {
   color: #4e0f0f;
   text-align: center;
 }
-body .con-div-todo .con-div-todo-inner .input-con .guide-toggle:hover {
+body .con-div-todo .con-div-todo-inner .input-con .new-reset .guide-toggle:hover {
   transition: all 0.5s ease;
   background: #4e0f0f;
   color: #ff6e39;

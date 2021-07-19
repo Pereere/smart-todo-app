@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import {saveTodo, resetTodo} from "../redux/todoSlice";
 import {useDispatch, useSelector} from "react-redux";
 import {nanoid} from "@reduxjs/toolkit";
+import {toggleSearch} from "../redux/toggleSlice";
 
 const NewTodo = () => {
 
@@ -49,15 +50,27 @@ const NewTodo = () => {
 
     };
 
+    const resetToggleButton = allTodos.length < 1 ? "No List" : "Reset";
+
+    const newToggleButton = toggleForm ? "New todo" : "Close form";
+
+    const toggle = () => {
+        dispatch(toggleSearch())
+    };
+
     return (
         <div className="input-con">
             <div className="new-reset">
                 <div className="guide-toggle" onClick={handleToggle}>
-                    <h4> New </h4>
+                    <h4> {newToggleButton} <span><i className="list icon"></i> </span></h4>
+                </div>
+
+                <div className="guide-search" onClick={toggle}>
+                    <h4> Search Todos</h4>
                 </div>
 
                 <div className="guide-toggle" onClick={handleReset}>
-                    <h4> Reset </h4>
+                    <h4> {resetToggleButton}  </h4>
                 </div>
 
             </div>

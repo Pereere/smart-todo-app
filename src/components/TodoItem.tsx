@@ -11,11 +11,11 @@ const TodoItem = (props: any) => {
     const handleDel = (e: any) => {
         e.preventDefault();
         dispatch(delTodo(props.id));
-    }
+    };
 
     const handleDone = () => {
         dispatch(doneTodo(props.id))
-    }
+    };
 
     const handleUpdate = (e:any) => {
         e.preventDefault();

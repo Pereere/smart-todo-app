@@ -125,7 +125,7 @@ body {
           display: flex;
           .guide-toggle {
             cursor: pointer;
-            margin: 10px auto;
+            margin: 10px 5px;
             transition: all 0.3s ease;
             background: #ff6e39;
             width: 40%;
@@ -140,6 +140,23 @@ body {
               color: #ff6e39;
               letter-spacing: 1px;
             }
+          }
+
+            .guide-search {
+              cursor: pointer;
+              margin: 10px 5px;
+              transition: all 0.3s ease;
+              background: #4e0f0f;
+              width: 40%;
+              padding: 5px;
+              border-radius: 15px;
+              color: #ff6e39;
+              text-align: center;
+
+              &:hover {
+                transition: all 0.5s ease;
+                letter-spacing: 1px;
+              }
           }
         }
 
@@ -217,7 +234,6 @@ body {
           transition: all 0.3s ease;
         }
       }
-
 
       .todo-list-div {
         background: cornsilk;
@@ -434,6 +450,33 @@ body {
           height: 100%;
           line-height: 40px;
           letter-spacing: 1px;
+        }
+      }
+
+      .todo-list-display{
+        .search-on{
+          width: 50%;
+          margin: 5px auto;
+          background: #fff;
+          height: 40px;
+          border-radius: 10px;
+
+          .search-input{
+            height: 100%;
+            width: 100%;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            background: none;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+          }
+        }
+
+        .search-off{
+          display: none;
+          transition: all 0.3s ease-in-out;
         }
       }
     }

@@ -111,7 +111,7 @@ body .con-div-todo .con-div-todo-inner .input-con .new-reset {
 }
 body .con-div-todo .con-div-todo-inner .input-con .new-reset .guide-toggle {
   cursor: pointer;
-  margin: 10px auto;
+  margin: 10px 5px;
   transition: all 0.3s ease;
   background: #ff6e39;
   width: 40%;
@@ -124,6 +124,21 @@ body .con-div-todo .con-div-todo-inner .input-con .new-reset .guide-toggle:hover
   transition: all 0.5s ease;
   background: #4e0f0f;
   color: #ff6e39;
+  letter-spacing: 1px;
+}
+body .con-div-todo .con-div-todo-inner .input-con .new-reset .guide-search {
+  cursor: pointer;
+  margin: 10px 5px;
+  transition: all 0.3s ease;
+  background: #4e0f0f;
+  width: 40%;
+  padding: 5px;
+  border-radius: 15px;
+  color: #ff6e39;
+  text-align: center;
+}
+body .con-div-todo .con-div-todo-inner .input-con .new-reset .guide-search:hover {
+  transition: all 0.5s ease;
   letter-spacing: 1px;
 }
 body .con-div-todo .con-div-todo-inner .input-con .form-todo-div {
@@ -374,6 +389,28 @@ body .con-div-todo .con-div-todo-inner .no-todo-left .message {
   height: 100%;
   line-height: 40px;
   letter-spacing: 1px;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-display .search-on {
+  width: 50%;
+  margin: 5px auto;
+  background: #fff;
+  height: 40px;
+  border-radius: 10px;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-display .search-on .search-input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+body .con-div-todo .con-div-todo-inner .todo-list-display .search-off {
+  display: none;
+  transition: all 0.3s ease-in-out;
 }
 body .con-div-todo .todo-footer-div {
   background: #671313;
